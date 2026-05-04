@@ -7,6 +7,14 @@ import WaveBottom from './ui/WaveBottom'
 // Compact timeline entries — only the key milestones
 const timelineItems = [
   {
+    id: 1,
+    year: '2021',
+    label: 'Class X — CBSE',
+    sub: 'KV Waltair, Visakhapatnam',
+    type: 'edu',
+    detail: 'Completed CBSE Class X boards from Kendriya Vidyalaya Waltair, Visakhapatnam.',
+  },
+  {
     id: 2,
     year: '2023',
     label: 'Class XII — CBSE (MBiPC)',

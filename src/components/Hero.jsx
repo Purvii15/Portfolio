@@ -88,7 +88,7 @@ const Hero = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* LEFT — Text */}
-        <div className="flex flex-col gap-5 lg:order-1">
+        <div className="flex flex-col gap-5">
 
           {/* Available badge */}
           <motion.div variants={fadeUp} custom={0} initial="hidden" animate="visible">
