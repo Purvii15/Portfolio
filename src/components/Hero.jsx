@@ -88,7 +88,7 @@ const Hero = () => (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* LEFT — Text */}
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 lg:order-1">
 
           {/* Available badge */}
           <motion.div variants={fadeUp} custom={0} initial="hidden" animate="visible">
@@ -197,48 +197,38 @@ const Hero = () => (
           </motion.div>
         </div>
 
-        {/* RIGHT — Photo frame (modern shadow, no polaroid tape) */}
+        {/* RIGHT — Photo */}
         <motion.div className="flex justify-center lg:justify-end"
           initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: 'easeOut', delay: 0.4 }}>
           <div className="relative">
-
-            {/* Fern — left */}
             <div className="absolute -left-14 top-6 hidden lg:block" aria-hidden="true">
               <FernSprig size={100} color="#C9A86A" opacity={0.50} />
             </div>
-            {/* Floral sprig — right */}
             <div className="absolute -right-12 bottom-2 hidden lg:block" aria-hidden="true">
               <FloralSprig size={90} color="#A8C49A" opacity={0.45} />
             </div>
-            {/* Butterfly — top-right */}
             <div className="absolute -top-8 -right-8 hidden lg:block" aria-hidden="true">
               <ButterflyOutline size={52} color="#C9A86A" opacity={0.45} />
             </div>
-            {/* Dot grid — bottom-left */}
             <div className="absolute -bottom-6 -left-6 hidden lg:block" aria-hidden="true">
               <DotGrid color="#7A9B6E" opacity={0.25} cols={4} rows={3} gap={12} />
             </div>
-
-            {/* Modern photo frame — rounded corners, subtle sage glow */}
             <motion.div
               whileHover={{ y: -6, scale: 1.01 }}
               transition={{ duration: 0.35 }}
               className="relative z-10 rounded-2xl overflow-hidden"
               style={{
-                width: '300px',
-                height: '380px',
-                boxShadow: '0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(168,196,154,0.15), 0 0 40px rgba(168,196,154,0.08)',
+                width: 'min(300px, 80vw)',
+                height: 'min(380px, 100vw)',
+                boxShadow: '0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(168,196,154,0.15)',
               }}>
               <img src="/assets/profile/purvi.jpg" alt="Purvi Mohanty"
                 className="w-full h-full object-cover object-top" loading="eager" />
-              {/* Subtle gradient overlay at bottom */}
               <div className="absolute bottom-0 left-0 right-0 h-20"
                 style={{ background: 'linear-gradient(to top, rgba(31,45,36,0.6) 0%, transparent 100%)' }} />
-              {/* Name tag at bottom */}
               <div className="absolute bottom-4 left-0 right-0 flex justify-center">
-                <span className="font-hand text-sm px-4 py-1 rounded-full"
-                  style={{ background: 'rgba(31,45,36,0.7)', color: '#A8C49A', fontFamily: 'Caveat, cursive', fontSize: '15px', backdropFilter: 'blur(4px)' }}>
+                <span style={{ background: 'rgba(31,45,36,0.7)', color: '#A8C49A', fontFamily: 'Caveat, cursive', fontSize: '15px', backdropFilter: 'blur(4px)', padding: '4px 16px', borderRadius: '999px' }}>
                   Purvi Mohanty 🌿
                 </span>
               </div>

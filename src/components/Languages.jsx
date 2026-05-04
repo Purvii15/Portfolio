@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion'
 
 const languages = [
-  { lang: 'English',  level: 'Professional Working',  color: '#A8C49A' },
-  { lang: 'Hindi',    level: 'Native',                 color: '#C9A86A' },
-  { lang: 'Odia',     level: 'Native',                 color: '#D4A5A0' },
-  { lang: 'Sanskrit', level: 'Fundamental',            color: '#7A9B6E' },
+  { lang: 'English', level: 'Professional Working', color: '#A8C49A' },
+  { lang: 'Hindi',   level: 'Native',               color: '#C9A86A' },
+  { lang: 'Odia',    level: 'Native',               color: '#D4A5A0' },
 ]
 
 const Languages = () => (

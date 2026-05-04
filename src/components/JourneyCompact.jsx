@@ -7,14 +7,6 @@ import WaveBottom from './ui/WaveBottom'
 // Compact timeline entries — only the key milestones
 const timelineItems = [
   {
-    id: 1,
-    year: '2021',
-    label: 'Class X — 94.8%',
-    sub: 'KV Waltair, Visakhapatnam',
-    type: 'edu',
-    detail: 'Scored 94.8% in CBSE Class X boards. First real encounter with structured problem-solving.',
-  },
-  {
     id: 2,
     year: '2023',
     label: 'Class XII — CBSE (MBiPC)',
