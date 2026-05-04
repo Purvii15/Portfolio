@@ -1,0 +1,86 @@
+/**
+ * Learning Journey Timeline — Purvi Mohanty (real data)
+ * Entries displayed chronologically (oldest → newest).
+ */
+export const journeyEntries = [
+  {
+    id: 1,
+    year: '2021',
+    type: 'education',
+    title: 'Completed Class X — CBSE',
+    org: 'Kendriya Vidyalaya Waltair, Visakhapatnam',
+    description: 'First real encounter with structured problem-solving — and the beginning of a love for mathematics and science.',
+  },
+  {
+    id: 2,
+    year: '2023',
+    type: 'education',
+    title: 'Completed Class XII — CBSE (MPC)',
+    org: 'Kendriya Vidyalaya Waltair, Visakhapatnam',
+    description: 'Completed higher secondary with Mathematics, Physics, and Chemistry. Chose Information Technology for the intersection of logic and creativity.',
+  },
+  {
+    id: 3,
+    year: '2023',
+    type: 'education',
+    title: 'Started B.Tech — Information Technology',
+    org: 'SRM IST — Ramapuram, Chennai',
+    description: 'Joined SRM IST-Ramapuram. Fell in love with Python, data structures, and the idea of building things that think. Currently maintaining CGPA 9.56/10.',
+  },
+  {
+    id: 4,
+    year: '2024',
+    type: 'project',
+    title: 'Blood Bank Management System',
+    org: 'Academic Project',
+    description: 'Python + MySQL backend managing 1,000+ donor records. Optimized SQL queries reduced lookup time by 60%.',
+  },
+  {
+    id: 5,
+    year: '2024',
+    type: 'project',
+    title: 'Aadhaar-Based Fraud Detection System',
+    org: 'Academic Project',
+    description: 'ML system with QR code verification and anomaly detection across 5,000+ records. Improved accuracy by ~20%.',
+  },
+  {
+    id: 6,
+    year: '2024',
+    type: 'achievement',
+    title: 'Head of Content — Reflections Art Club',
+    org: 'SRMIST',
+    description: 'Leading content creation, branding, and creative direction for club events.',
+  },
+  {
+    id: 7,
+    year: '2025',
+    type: 'achievement',
+    title: '1st Prize — Oral Presentation, National Science Day',
+    org: 'SRMIST',
+    description: 'Recognized for communication, clarity, and technical depth.',
+  },
+  {
+    id: 8,
+    year: 'Jun–Jul 2025',
+    type: 'work',
+    title: 'AI/ML Intern — ORSAC',
+    org: 'Odisha Space Applications Centre, Bhubaneswar',
+    description: 'Processed 10,000+ satellite imagery samples. Automated thematic map pipelines, reducing processing time by 30–40%.',
+  },
+  {
+    id: 9,
+    year: '2025',
+    type: 'project',
+    title: 'Sahayak — Agentic AI for Disaster Response',
+    org: 'Open Source',
+    description: 'LLM-powered agent analyzing 1,000+ disaster alerts and generating prioritized response plans. Reduced manual decision effort by ~30%.',
+  },
+  {
+    id: 10,
+    year: 'Now',
+    type: 'education',
+    title: 'Exploring LangChain, RAG & Agentic Systems',
+    org: 'Open to internships & research roles',
+    description: 'Deep-diving into retrieval-augmented generation and multi-agent orchestration.',
+  },
+]
