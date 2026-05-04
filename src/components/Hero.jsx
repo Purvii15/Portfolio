@@ -64,7 +64,7 @@ const Hero = () => (
         style={{ opacity: 0.55 }} />
       {/* Multi-layer gradient for depth */}
       <div className="absolute inset-0" style={{
-        background: 'linear-gradient(to bottom, rgba(10,18,12,0.75) 0%, rgba(20,32,22,0.55) 40%, rgba(15,26,18,0.80) 75%, rgba(10,18,12,0.95) 100%)'
+        background: 'linear-gradient(to bottom, rgba(10,18,12,0.75) 0%, rgba(20,32,22,0.50) 40%, rgba(20,32,22,0.40) 70%, rgba(15,26,18,0.55) 100%)'
       }} />
       {/* Radial glow in center to lift content area */}
       <div className="absolute inset-0" style={{
