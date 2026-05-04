@@ -35,7 +35,7 @@ function RotatingRole() {
   }, [])
   return (
     <span className="inline-flex items-center gap-2">
-      <span style={{ color: '#B8B0A0', fontSize: '15px' }}>I'm a </span>
+      <span style={{ color: '#C8C0B0', fontSize: '15px' }}>I'm a </span>
       <span className="relative inline-block overflow-hidden" style={{ height: '1.4em', minWidth: '180px' }}>
         <AnimatePresence mode="wait">
           <motion.span key={roles[idx]}
@@ -61,9 +61,9 @@ const Hero = () => (
     <div className="absolute inset-0 pointer-events-none">
       <img src="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1600&q=90"
         alt="" aria-hidden="true" className="w-full h-full object-cover"
-        style={{ opacity: 0.75 }} />
+        style={{ opacity: 0.45 }} />
       <div className="absolute inset-0"
-        style={{ background: 'linear-gradient(135deg, rgba(22,32,26,0.72) 0%, rgba(31,45,36,0.55) 50%, rgba(22,32,26,0.65) 100%)' }} />
+        style={{ background: 'linear-gradient(135deg, rgba(15,24,18,0.88) 0%, rgba(22,32,26,0.80) 50%, rgba(15,24,18,0.85) 100%)' }} />
     </div>
 
     {/* Dot grids */}
@@ -130,7 +130,7 @@ const Hero = () => (
           {/* Intro */}
           <motion.p variants={fadeUp} custom={3} initial="hidden" animate="visible"
             className="font-sans leading-relaxed max-w-lg"
-            style={{ color: '#B8B0A0', fontSize: '15px', lineHeight: 1.85 }}>
+            style={{ color: '#D4CFC6', fontSize: '15px', lineHeight: 1.85 }}>
             I'm someone who enjoys turning ideas into working systems that actually make a difference.
             Currently pursuing B.Tech in Information Technology, I'm deeply interested in AI, intelligent
             systems, and building solutions that go beyond just theory.
