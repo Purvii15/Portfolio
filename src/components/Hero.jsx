@@ -61,9 +61,15 @@ const Hero = () => (
     <div className="absolute inset-0 pointer-events-none">
       <img src="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1600&q=90"
         alt="" aria-hidden="true" className="w-full h-full object-cover"
-        style={{ opacity: 0.45 }} />
-      <div className="absolute inset-0"
-        style={{ background: 'linear-gradient(135deg, rgba(15,24,18,0.88) 0%, rgba(22,32,26,0.80) 50%, rgba(15,24,18,0.85) 100%)' }} />
+        style={{ opacity: 0.55 }} />
+      {/* Multi-layer gradient for depth */}
+      <div className="absolute inset-0" style={{
+        background: 'linear-gradient(to bottom, rgba(10,18,12,0.75) 0%, rgba(20,32,22,0.55) 40%, rgba(15,26,18,0.80) 75%, rgba(10,18,12,0.95) 100%)'
+      }} />
+      {/* Radial glow in center to lift content area */}
+      <div className="absolute inset-0" style={{
+        background: 'radial-gradient(ellipse 80% 60% at 35% 50%, rgba(42,70,48,0.35) 0%, transparent 70%)'
+      }} />
     </div>
 
     {/* Dot grids */}
