@@ -189,7 +189,7 @@ const Contact = () => (
           viewport={{ once: true }} transition={{ duration: 0.6 }}
           className="flex flex-col gap-5">
           <p className="font-sans text-base leading-relaxed" style={{ color: '#B8B0A0', lineHeight: 1.8 }}>
-            Whether it's an internship, collaboration, or just a conversation about AI, design, or chai — I'd love to hear from you.
+            Whether it's an internship, collaboration, or just a conversation about AI, design, or coffee — I'd love to hear from you.
           </p>
 
           <div className="flex flex-col gap-4 mt-2">
